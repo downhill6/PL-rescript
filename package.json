@@ -1,0 +1,11 @@
+{
+	"name": "rescript_lang",
+	"scripts": {
+		"res:build": "rescript",
+		"res:dev": "rescript -w"
+	},
+	"dependencies": {
+		"rescript": "^11.0.0",
+		"@rescript/core": "^0.6.0"
+	}
+}

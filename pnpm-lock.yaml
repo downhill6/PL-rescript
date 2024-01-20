@@ -1,0 +1,30 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@rescript/core':
+    specifier: ^0.6.0
+    version: 0.6.0(rescript@11.0.0)
+  rescript:
+    specifier: ^11.0.0
+    version: 11.0.0
+
+packages:
+
+  /@rescript/core@0.6.0(rescript@11.0.0):
+    resolution: {integrity: sha512-D4ykxSpbmxbQa99kCg6/DztwCNt1tV3t11BLSOvJPHNLSIuQxfAU3ddgRruaH9LQSKOrMUjxQS9z6RdG5iFPoA==}
+    peerDependencies:
+      rescript: ^10.1.0 || ^11.0.0-alpha.0 || next
+    dependencies:
+      rescript: 11.0.0
+    dev: false
+
+  /rescript@11.0.0:
+    resolution: {integrity: sha512-uIUwDZZmDUb7ymGkBiiGioxMg8hXh1mze/2k/qhYQcZGgi7PrLHQIW9AksM7gb9WnpjCAvFsA8U2VgC0nA468w==}
+    engines: {node: '>=10'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
